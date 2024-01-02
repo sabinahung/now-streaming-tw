@@ -18,6 +18,8 @@ on:
 jobs:
   daily:
     runs-on: ubuntu-latest
+    env:
+      API_KEY: ${{ vars.API_KEY }}
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
