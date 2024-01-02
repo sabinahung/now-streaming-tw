@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Now Playing in Taiwan</title>
+    <title>Now Streaming in Taiwan</title>
     <style>
         body {
             margin: 0;
@@ -11,7 +11,7 @@
         }
         /* Make the page 700px wide, centered */
         .container {
-            width: 700px;
+            width: 1000px;
             margin: 4em auto;
         }
         /* Use a nice font */
@@ -41,13 +41,12 @@
 <body>
     <div class="container">
         <h1>🍿 Now Playing in Taiwan 🍿</h1>
-        <h3>Movies on Streaming Platforms in Taiwan Today</h3>
-        <p>The table below auto-updates every day. Movie list is displayed using the <a href="https://developer.themoviedb.org/docs">TMDB API</a>.</p>
         <div class="graphic">
             <iframe title="Can't decide what to watch? Pick one that is available on streaming today" aria-label="Table" id="datawrapper-chart-W6h1U" src="https://datawrapper.dwcdn.net/W6h1U/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2011" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
             </script>
         </div>
     </div>
     <div id="footer">
+        <p>The table above auto-updates every day. Movie list comes from  <a href="https://developer.themoviedb.org/docs">TMDB API</a>.</p>
     </div>
 </html>
